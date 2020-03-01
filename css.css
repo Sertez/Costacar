@@ -1,9 +1,17 @@
 #navbar{
     font-size: 50px;
+    margin-left: 200px;
 }
 
 #altura{
     height: 200;
     max-height:  300px;
     max-height: 300px;
+}
+
+#centrar{
+    margin-left: 200px;
+}
+#margen{
+    margin-top: 200px;
 }
