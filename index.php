@@ -16,6 +16,33 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-image:url(verde.jpg); opacity:0.9">
+    <a class="navbar-brand" href="#" id="blanco">Costacar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="blanco">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="blanco">Caracteristicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="blanco">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="blanco">Contactanos</a>
+        </li>
+        <div style="margin-left:auto; margin-right:0vmax">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="blanco">Ingresar</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>
   <div id="">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -56,25 +83,69 @@
       </a>
     </div>
   </div>
-  <div>
-    <div style="background-image:url(verde.jpg)">
-      <div style="margin-left:27vw; ">
-        <img src="Costacar.png" style="height: 25vh; width:46vw; "  alt="">
+  <div style="background-image:url(verde.jpg);">
+    <div style="margin-left:27vw; ">
+      <img src="Costacar.png" style="height: 25vh; width:46vw; " alt="">
+    </div>
+  </div>
+  <div style="background-image: url(fondo.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <p><br></p>
+          <h4>Membresía</h4>
+        </div>
+        <div class="col-md" id="texto">
+          <p><br></p>
+          <h4>Rentar</h4>
+        </div>
+        <div class="col-md" id="texto">
+          <p><br></p>
+          <h4>Devolver</h4>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" style="text-align: center">
+          <img src="membresia.png">
+        </div>
+        <div class="col-sm" style="text-align: center">
+          <img src="rentar.png">
+        </div>
+        <div class="col-sm" style="text-align: center">
+          <img src="devolver.png">
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md">
-
+        <div class="col-md" id="texto">
+          <h6>Hazte miembro y obtén nuestra membresía completamente gratis</h6>
         </div>
-        <div class="col-md">
-
+        <div class="col-md" id="texto">
+          <h6>Renta ya los mejores autos del mercado cuando quieras y como quieras</h6>
         </div>
-        <div class="col-md">
-
+        <div class="col-md" id="texto">
+          <h6>Devolver el auto nunca ha sido tan fácil</h6>
         </div>
       </div>
     </div>
+    <p> <br><br></p>
+    <div class="footer" style="width:100wh">
+      <div style="background-image:url(verde.jpg)" >
+        <!-- Estas letras tienen que ir centradas y en la mitad de la imagen verdad, encima de la imagen verde, que no ocupen mucho espacio. Si te das cuenta debajo de la imagen verde hay un espacio en blanco que no se como quitar-->
+        <p><br></p>
+        <h6 id="blanco" style="text-align:center">Contactanos</h6>
+        <h6 id="blanco" style="text-align:center">Daniel Donado - adavendano@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Daniel Valencia - dvalencia@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Santiago Zúñiga - sazuniga@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Copyright (c) 2020</h6>
+        <p></p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -3,6 +3,15 @@
     margin-left: 200px;
 }
 
+#body{
+    margin:0;
+    padding:0
+}
+
+#div{
+    margin:0;
+    padding:0
+}
 #altura{
     height: 200;
     max-height:  300px;
@@ -12,6 +21,18 @@
 #centrar{
     margin-left: 200px;
 }
-#margen{
-    margin-top: 200px;
+#blanco{
+    color: white;
+}
+#texto{
+    text-align: center;
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.footer{
+    display: grid;
 }
