@@ -35,9 +35,12 @@
         <li class="nav-item">
           <a class="nav-link" href="#" id="blanco">Contactanos</a>
         </li>
-        <div style="margin-left:auto; margin-right:0vmax">
+        <div class="my-2 my-lg-0">
+          <li class="nav-item mr-sm-2">
+            <a class="nav-link my-2 my-sm-0" href="#" id="blanco">Ingresar</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="blanco">Ingresar</a>
+            <a class="nav-link my-2 my-sm-0" href="#" id="blanco">Ingresar</a>
           </li>
         </div>
       </ul>
