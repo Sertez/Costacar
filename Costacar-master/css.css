@@ -1,0 +1,32 @@
+#navbar{
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+#altura{
+    height: 200;
+    max-height:  300px;
+    max-height: 300px;
+}
+
+#centrar{
+    margin-left: 200px;
+}
+#margen{
+    margin-top: 200px;
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
