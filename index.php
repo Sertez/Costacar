@@ -35,14 +35,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#" id="blanco">Contactanos</a>
         </li>
-        <div class="my-2 my-lg-0">
-          <li class="nav-item mr-sm-2">
-            <a class="nav-link my-2 my-sm-0" href="#" id="blanco">Ingresar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link my-2 my-sm-0" href="#" id="blanco">Ingresar</a>
-          </li>
-        </div>
+        <li class="nav-item mr-sm-2">
+          <a class="nav-link my-2 my-sm-0" href="#" id="blanco">Ingresar</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -54,21 +49,21 @@
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 100vh">
+        <div class="carousel-item active" style="max-height: 100vh">
           <img src="jpg/carro.jpg" class="d-block d-sm-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Renta los mejores autos</h5>
             <p>Autos en perfecto estado y en multiples modelos</p>
           </div>
         </div>
-        <div class="carousel-item" style="height: 100vh">
+        <div class="carousel-item" style="max-height: 100vh">
           <img src="jpg/colombia.jpg" class="d-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Viaja por toda Colombia</h5>
             <p>Atrévete a explorar todo el territorio colombiano</p>
           </div>
         </div>
-        <div class="carousel-item" style="height: 100vh">
+        <div class="carousel-item" style="max-height: 100vh">
           <img src="jpg/dinero.jpg" class="d-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Ahorra dinero</h5>
@@ -88,7 +83,7 @@
   </div>
   <div style="background-image:url(jpg/verde.jpg);">
     <div style="margin-left:27vw; ">
-      <img src="png/Costacar.png" style="height: 25vh; width:46vw; " alt="">
+      <img src="png/Costacar.png" style="width:46vw; " alt="">
     </div>
   </div>
   <div style="background-image: url(png/fondo.png);">
@@ -131,13 +126,40 @@
           <h6>Renta ya los mejores autos del mercado cuando quieras y como quieras</h6>
         </div>
         <div class="col-md" id="texto">
-          <h6>Devolver el auto nunca ha sido tan fácil</h6>
+          <h6>Devolver el auto nunca ha sido tan fácil, regresalo justo donde lo recogiste</h6>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" style="text-align: center">
+          <img src="png/bus.png">
+        </div>
+        <div class="col-sm" style="text-align: center">
+          <img src="png/pago.png">
+        </div>
+        <div class="col-sm" style="text-align: center">
+          <img src="png/ahorro.png">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <h6>Deja atras las incomodidades del transporte público y únete a nuestro grupo de clientes satisfechos</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>Estima tu viaje y realiza tu pago con los múltiples metodos que tenemos para ti</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>Elimina los gastos de tener un auto propio, nosotros nos hacemos cargo del combustible y costos de parqueo</h6>
         </div>
       </div>
     </div>
     <p> <br><br></p>
     <div class="footer" style="width:100wh">
-      <div style="background-image:url(jpg/verde.jpg)" >
+      <div style="background-image:url(jpg/verde.jpg)">
         <!-- Estas letras tienen que ir centradas y en la mitad de la imagen verdad, encima de la imagen verde, que no ocupen mucho espacio. Si te das cuenta debajo de la imagen verde hay un espacio en blanco que no se como quitar-->
         <p><br></p>
         <h6 id="blanco" style="text-align:center">Contactanos</h6>
