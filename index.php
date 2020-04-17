@@ -1,6 +1,20 @@
 <?php include('includes/db.php') ?>
 <?php include('includes/header.php') ?>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Costacar</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- JS -->
+  <link rel="stylesheet" href="css/css.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</head>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-image:url(jpg/verde.jpg); opacity:0.9">
   <a class="navbar-brand" href="#" id="blanco">Costacar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,11 +162,6 @@
     </a>
   </div>
 </div>
-<div style="background-image:url(jpg/verde.jpg);">
-  <div style="margin-left:27vw; ">
-    <img src="png/Costacar.png" style="width:46vw; " alt="">
-  </div>
-</div>
 <div style="background-image: url(png/fondo.png);">
   <div class="container">
     <div class="row">
@@ -184,6 +193,7 @@
       </div>
     </div>
   </div>
+  <p></p>
   <div class="container">
     <div class="row">
       <div class="col-md" id="texto">
@@ -197,7 +207,7 @@
       </div>
     </div>
   </div>
-  <br>
+  <br></br>
   <div class="container">
     <div class="row">
       <div class="col-sm" style="text-align: center">
@@ -211,6 +221,7 @@
       </div>
     </div>
   </div>
+  <p></p>
   <div class="container">
     <div class="row">
       <div class="col-md" id="texto">
@@ -224,16 +235,161 @@
       </div>
     </div>
   </div>
-  <p> <br><br></p>
-  <div class="footer" style="width:100wh">
-    <div style="background-image:url(jpg/verde.jpg)">
-      <!-- Estas letras tienen que ir centradas y en la mitad de la imagen verdad, encima de la imagen verde, que no ocupen mucho espacio. Si te das cuenta debajo de la imagen verde hay un espacio en blanco que no se como quitar-->
-      <p><br></p>
-      <h6 id="blanco" style="text-align:center">Contactanos</h6>
-      <h6 id="blanco" style="text-align:center">Daniel Donado - adavendano@uninorte.edu.co</h6>
-      <h6 id="blanco" style="text-align:center">Daniel Valencia - dvalencia@uninorte.edu.co</h6>
-      <h6 id="blanco" style="text-align:center">Santiago Zúñiga - sazuniga@uninorte.edu.co</h6>
-      <h6 id="blanco" style="text-align:center">Copyright (c) 2020</h6>
+  <p><br></br></p>
+  <div style="background-image:url(jpg/verde.jpg);">
+    <div style="margin-left:27vw; ">
+      <img src="png/Costacar.png" style="width:46vw; " alt="">
+    </div>
+  </div>
+    <div id="demo" class="carousel slide" data-ride="carousel"> 
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>  
+      <div class="carousel-inner">
+        <div class="carousel-item active"  style="max-height: 100vh">  
+          <img src="jpg/kia.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kia Rio Hatchback</h5>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-height: 100vh">
+          <img src="jpg/hyundai.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hyundai Accent</h5>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-height: 100vh">
+          <img src="jpg/renault.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Renault Duster</h5>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-height: 100vh">
+          <img src="jpg/volkswagen.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Volkswagen Tiguan</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <p><br><br></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+        </div>
+        <div class="col-md" id="texto">
+          <h4> Consejos para alquilar un carro en Barranquilla </h4>
+        </div>
+        <div class="col-md" id="texto">
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <img src="png/consejo.png" style="margin-left: 620px">
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <p>Reserva tu carro de alquiler en Barranquilla al menos 2 semanas antes de tu viaje para conseguir un precio por debajo del promedio.</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p>Las oficinas de alquiler de carros fuera del aeropuerto de Barranquilla son en promedio un 12% más caras que las del aeropuerto.</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p>En promedio, los carros de alquiler de tipo Mini en Barranquilla son alrededor de un 41% más baratos que otro tipo de carros.</p>
+        </div>
+      </div>
+    </div>    
+    <p><br><br></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+        </div>
+        <div class="col-md" id="texto">
+          <h4>Preguntas frecuentes sobre renta de autos en Barranquilla</h4>
+        </div>
+        <div class="col-md" id="texto">
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <img src="png/pregunta.png" style="margin-left: 620px">
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <h6>¿Cuánto cuesta alquilar un auto en Barranquilla?</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>¿Cuál es el tipo de carro más popular en Barranquilla?</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>¿Cuáles son los tipos de carros que ofrecen en Barranquilla?</h6>
+        </div>
+      </div>
+    </div>  
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <p>Un auto de alquiler en Barranquilla cuesta $119.937 por día.</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p>El tipo de carro más reservado en Barranquilla es Económico (Kia Rio Hatchback o similar).</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p> Comercial, Compacto, Económico, Mediano, Mini y SUV.</p>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <h6>¿Cuánto cuesta alquilar un carro por una semana en Barranquilla?</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>¿Cuánto cuesta alquilar un carro por un mes en Barranquilla?</h6>
+        </div>
+        <div class="col-md" id="texto">
+          <h6>¿Cómo y dondé puedo contactarlos para el alquiler de un auto en Barranquilla?</h6>
+        </div>
+      </div>
+    </div>  
+    <p></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md" id="texto">
+          <p>En promedio, alquilar un carro en Barranquilla cuesta $839.561 por semana ($119.937 por día).</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p>En promedio, alquilar un carro en Barranquilla cuesta $3.598.119 por mes ($119.937 por día).</p>
+        </div>
+        <div class="col-md" id="texto">
+          <p>Abajo puedes encontrar nuestra información de contacto, correo y teléfonos. También puedes dirigirte a nuestro punto Calle 70 # 53-28 (4 km del centro de la ciudad ).</p>
+        </div>
+      </div>
+    </div>  
+    <p><br><br></p>
+    <div class="footer" style="width:100wh">
+      <div style="background-image:url(jpg/verde.jpg)">
+       <p><br></p>
+        <h6 id="blanco" style="text-align:center">Contáctanos</h6>
+        <h6 id="blanco" style="text-align:center">Daniel Donado - adavendano@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Daniel Valencia - dvalencia@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Santiago Zúñiga - sazuniga@uninorte.edu.co</h6>
+        <h6 id="blanco" style="text-align:center">Costacar - costacarbq@gmail.com</h6>
+        <h6 id="blanco" style="text-align:center">Teléfonos - 3590692 - 3607011</h6>
+        <h6 id="blanco" style="text-align:center">Copyright (c) 2020</h6>
       <p></p>
     </div>
   </div>
