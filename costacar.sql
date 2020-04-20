@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-04-2020 a las 23:48:30
+-- Tiempo de generación: 20-04-2020 a las 19:26:03
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.2.27
 
@@ -41,6 +41,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`usuario`, `password`, `nombre`, `apellido`, `correo`) VALUES
+('', '', '', '', ''),
 ('daniel', 'hola', 'daniel', 'daniel', 'daniel@1.com'),
 ('monda', '123', 'monda', 'pelua', '1@1.com');
 
