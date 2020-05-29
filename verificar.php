@@ -43,6 +43,8 @@ if (isset($_POST['pass'])){
     $existe = $row[0];
     if (strcmp($vacio, $existe) === 0) {
         echo "Usuario o contreseña incorrectos";
+    }else{
+        echo "Ingreso exitoso";
     }
 }
 
